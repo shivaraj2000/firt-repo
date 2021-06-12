@@ -1,0 +1,32 @@
+/* always start from moblile... mobile first approch you have o follow*/
+/*mobile,tablet,laptop,pc order wise you gave the preferences*/
+body{
+    background-color: green;
+}
+
+
+/* standard break points for devices
+mobile-0 to 767 px
+tablet-768 px
+laptop-1020 px
+pc-1400 px
+*/
+
+
+@media  (min-width: 768px){
+    body{
+    background-color:blue;
+    }
+}
+
+@media  (min-width: 1020px){
+    body{
+    background-color:red;
+    }
+}
+
+@media  (min-width: 1400px){
+    body{
+    background-color:slategray;
+    }
+}

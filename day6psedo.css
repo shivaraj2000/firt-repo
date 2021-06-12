@@ -1,0 +1,20 @@
+button{
+    margin:150px;
+    background-color: purple;
+    border:2px solid red;
+    color:white;
+    border-radius: 6px;
+    padding: 6px;
+
+}
+
+button:hover{
+    background-color: blue;
+}
+button:focus{
+    background-color: black;
+}
+button:disabled{ /* if you select the disable botton then you have to change in html file also*/
+    cursor: not-allowed;
+    opacity: 0.7;
+}

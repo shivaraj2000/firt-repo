@@ -1,0 +1,18 @@
+/* position display */
+.parent{
+    background-color: red;
+    width:300px;
+    height:300px;
+    position:relative;
+}
+.child{
+    background-color: teal;
+    width:100px;
+    height:100px;
+    margin:5px;
+    display:inline-block; /*avoid to wrapping things*/
+    position:absolute;
+    left:0;
+    bottom: 0;
+}
+
